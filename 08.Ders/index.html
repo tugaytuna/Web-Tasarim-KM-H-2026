@@ -10,16 +10,63 @@
 
     <form action="">
       <label for="isim-soyisim">Adınız Soyadınız:</label>
-      <input type="text" name="" id="isim-soyisim" />
+      <input required type="text" name="" id="isim-soyisim" />
+      <br />
+      <br />
+      <label for="">Email Adresi:</label>
+      <input placeholder="info@test.com" type="email" name="" id="" />
+      <br />
+      <br />
+      <label for="yas">Yaşınız:</label>
+      <input
+        placeholder="14-100"
+        min="14"
+        max="100"
+        type="number"
+        name=""
+        id="yas"
+      />
+      <br />
+      <br />
+      <input type="radio" name="mesaj" id="dilek" />
+      <label for="dilek">Dilek</label>
+      <input type="radio" name="mesaj" id="sikayet" />
+      <label for="sikayet">Şikayet</label>
       <br />
       <br />
       <label for="mesajınız">Mesajınız:</label>
-      <textarea maxlength="100" name="" id="mesajınız"></textarea>
+      <textarea
+        placeholder="mesajınızı giriniz, aklınızdakileri yazabilirsiniz"
+        maxlength="100"
+        name=""
+        id="mesajınız"
+      ></textarea>
       <br />
       <br />
-      <!-- <input type="button" value="Gönder" />
-      <button>Gönder</button> -->
+      <input type="checkbox" name="" id="sozlesme" />
+      <label for="sozlesme">Kullanıcı sözleşmesini okudum, onaylıyorum.</label>
+      <br />
+      <br />
       <input type="submit" value="Gönder" />
+      <input type="reset" value="Temizle" />
     </form>
+
+    <h1>Giriş Yap</h1>
+    <br />
+    <label for="emailgiris">Email Adresi:</label>
+    <input type="email" name="" id="emailgiris" />
+    <label for="sifre">Şifreniz:</label>
+    <input type="password" name="" id="sifre" />
+    <input type="button" value="Giriş Yap" />
+
+    <hr />
+    <input type="file" name="" id="" />
+    <hr />
+    <input type="color" name="" id="" />
+    <hr />
+    <input type="date" name="" id="" />
+    <input type="datetime-local" name="" id="" />
+    <hr />
+    <input min="0" max="100" value="100" type="range" name="" id="" />
   </body>
 </html>
