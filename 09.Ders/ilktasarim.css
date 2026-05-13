@@ -1,0 +1,22 @@
+h1 {
+  color: rgb(44, 220, 82);
+  text-align: center;
+  font-size: 44px;
+}
+
+#ozel-p {
+  color: gold;
+  background-color: black;
+  text-align: center;
+}
+
+p {
+  color: crimson;
+
+  background-color: cadetblue;
+
+  font-size: 12px;
+
+  /* İki yana yasla */
+  /* text-align: justify; */
+}
