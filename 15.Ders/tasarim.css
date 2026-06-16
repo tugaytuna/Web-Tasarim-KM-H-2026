@@ -1,0 +1,21 @@
+header {
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+  margin: 30px 0px;
+  background-color: black;
+  padding: 15px 0px;
+}
+
+nav a {
+  margin: 10px;
+  text-decoration: none;
+  color: #9ab;
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: white;
+}
