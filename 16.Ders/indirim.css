@@ -1,0 +1,46 @@
+.i-indirimler {
+  text-align: center;
+  display: flex;
+}
+
+.i-anadiv:hover {
+  box-shadow: 0px 0px 8px gray;
+  cursor: pointer;
+}
+
+.i-anadiv {
+  background-color: #e4effe;
+  width: 300px;
+  margin: 20px;
+  border: 1px solid rgb(202, 202, 202);
+  border-radius: 20px;
+  display: flex;
+  /* Varsayılan direction: row */
+  flex-direction: row;
+}
+
+.i-gorsel {
+  width: 40%;
+  text-align: center;
+  background-color: #caddf2;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.i-yazi {
+  width: 60%;
+}
+
+.i-yazi h1 {
+  font-size: 48px;
+  text-align: left;
+  margin: 14px 0px 0px 30px;
+  color: #2461ae;
+  font-weight: 800;
+}
+
+.i-yazi h4 {
+  text-align: left;
+  margin: 0px 0px 10px 30px;
+  color: #2461ae;
+}
