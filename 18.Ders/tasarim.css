@@ -1,0 +1,20 @@
+header {
+  text-align: center;
+  margin: 25px 10px;
+}
+
+header h1 {
+  margin-bottom: 15px;
+}
+
+.girisYapB {
+  margin: 20px;
+}
+
+.outlineBu {
+  margin: 10px;
+}
+
+.checkboxButonlar {
+  margin: 30px;
+}
