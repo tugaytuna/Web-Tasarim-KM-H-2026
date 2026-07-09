@@ -1,0 +1,13 @@
+header {
+  text-align: center;
+  /* margin: 25px 15px; */
+  margin: 25px 15px 0px 15px;
+}
+
+.kart1 img {
+  height: 130px;
+}
+
+.navi1 {
+  margin: 5px 0px 30px 0px;
+}
