@@ -1,0 +1,21 @@
+header {
+  text-align: center;
+  margin: 15px;
+}
+
+form {
+  margin: 20px;
+  text-align: left;
+  width: 50%;
+  background-color: azure;
+  padding: 10px 15px;
+}
+
+.kayit-giris {
+  display: flex;
+}
+
+.renksecici {
+  /* display: flex;
+  flex-direction: row; */
+}
